@@ -1,0 +1,145 @@
+Trabajos
+========
+
+Vida en JS - HTML
+
+
+ <!--Universidad de Cundinamarca 
+ Extensión Chía
+ Ingeniería de Sistemas 
+ Computación Grafica
+ V Semestre Nocturno
+ IPA2014                   
+
+ Presentado por: 
+ * Luis Alfredo Sánchez  - Código:561212149               
+ Docente: Jorge Rubiano-->
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+
+	<!--Tipo de Codificación-->
+	<meta charset="UTF-8">
+
+	<!--Titulo de la Pagina Web-->
+	<title>¿Numero Par o Impar?</title>
+
+
+<!---SCRIP-->
+
+<!--Creacion de Scrip-->
+
+<script language="javascript">
+
+
+//////////////////////////Validar Números//////////////////////////////////
+			
+			function ValidaSoloNumeros() {
+ 			if ((event.keyCode < 48) || (event.keyCode > 57)) 
+ 			 event.returnValue = false;
+				}
+//Validación tomada de http://devcate.blogspot.com/2012/10/validar-solo-numeros-o-texto-con.html
+
+
+
+
+//////////////////VALIDACIÓN DE NÚMERO EN TEXT AREA/////////////////////////
+ 				function VerificarNumero(){
+				var NumeroUser = document.Obj.TextAreaUser.value;
+
+       
+ //____________________________________________________________________________________________
+
+
+
+ /////////////////COMPARACIÓN/////////////////////////////   
+            if (NumeroUser%2==0) {
+            alert(NumeroUser+"  Es un número par");
+
+
+            };
+
+
+            if (NumeroUser%2==1) {
+            alert(NumeroUser+"  Es un número impar");
+
+       		};
+   			}
+//__________________________________________________________________
+
+
+	
+        //Fin del Scrip</script>
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+<!--Creacion de Formulario-->
+
+	  
+
+	 <!--Titulo Principal de la Pagina-->
+	  	<FONT SIZE="22">Ingrese un numero entero </FONT> 
+		
+
+	<!--Formulario-->
+	  	<form name="Obj">
+         
+     <!--Creación de TextArea-->     
+        <input type="Text" value="" name="TextAreaUser" onkeypress="ValidaSoloNumeros()">
+     
+      <!--Creación de Button-->        
+        <input type="Button" value="Resultado" onclick="VerificarNumero()">
+
+ 			</form>
+
+
+
+
+ <!--///////////////////////////////////////////////////////////////////////////////////////////--> 
+ 	
+ 	<!--DESCRIPCIÓN-->
+
+<!--Uso de la Etiqueta DIV-->
+<DIV Align="Center" > <font Color="Red"><h2><U>Descripción</u></h2></font>
+
+
+	<h2>Este es un programa el cual solicita un número entero al usuario, y nos dice si el número es par o impar.</h2> <P>
+
+	<A HREF="file:///D:/Desktop/ola.html"><h3>Again</h3> </A> <P>
+
+
+	<IMG SRC="http://4.bp.blogspot.com/-Iabr5ZVnDWg/UEpBp_IL4SI/AAAAAAAACyY/QCRiDZL4dMA/s1600/188129_68060389128_7270375_n.jpg">
+
+
+</DIV>	
+
+ <!--////////////////////////////////PRESENTACIÓN///////////////////////////////////-->
+<CODE><UL>
+ Universidad de Cundinamarca <P>
+ Extensión Chía<P>
+ Ingeniería de Sistemas <P>
+ Computación Grafica<P>
+ V Semestre Nocturno<P>
+ IPA2014               <P>     
+
+ Presentado por: <P>
+ * Luis Alfredo Sánchez  - Código:561212149<P>
+                
+ Docente: Jorge Rubiano
+</UL></CODE>
+
+    </body>
+</html>
+ <!--Fin del Programa-->
