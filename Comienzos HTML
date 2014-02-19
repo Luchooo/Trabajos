@@ -1,0 +1,156 @@
+<!--<!doctype html>
+<html lang="en">
+-->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Numeros Pares</title>
+
+<!--SCRIP-->
+
+<script language="javascript">
+
+ document.write("PROBANDO SCRIP\n  nueva linea")
+
+
+//alert("HOLA ME LLAMO\n LUCHOOO")
+
+//Guardar Variable
+//var numero=prompt ("Escriba un numero:")
+
+
+//Mostrar Variable por pagina
+//document.write("El numero que escribio es:"+ numero)
+
+//Mostrar variable por Pantalla
+
+//alert("El numero que escribio anteriormente es"+ numero)
+
+
+
+//var Par=alert("El numero es Par")
+//var Impar=alert("El numero es impar")
+
+
+
+var Par = "<p>! El numero es PAR</p>"
+var Impar ="<p>! El numero es IMPAR</p>"
+var pregunta=("Escriba un numero entero")
+
+var respuesta_user =prompt(pregunta);
+
+
+//Condiconal Saber Si el numero es PAR o IMPAR
+
+
+(respuesta_user%2!=0) ? "El numero es Par"+Par : Impar
+
+
+
+
+
+
+
+
+
+
+/*
+if((pregunta%2)==resultado){
+var Par=alert("El numero es Par")
+}
+
+var Impar=alert("El numero es impar")
+*/
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+	
+
+<!--Cambiar Color de Fondo-->
+<BODY BGCOLOR=blue></BODY
+
+
+
+<!--Tipo de Fuente-->
+
+<I>Fuente Italica</i>	
+						<BR>
+						<BR>
+
+
+<FONT size=6,>Tipo de letra =7</FONT> 
+
+<!--<p Align="Center"> OLA QUE HACE 
+-->
+
+
+
+
+
+<!--Uso de la Etiqueta DIV-->
+<DIV Align="center">OLA ESTOY AQUI</DIV>
+
+
+
+
+
+<A HREF="N%C3%BAmero%20Par.html">PINCHAME</A>
+
+
+<!--
+<A HREF="https://www.google.com.co">PINCHAME</A>
+-->
+
+
+<!--PONER IMAGEN-->
+
+<!--
+	<IMG SRC="OLA.png"> <!--Etiqueta Relativa-->
+
+
+
+<!-- <IMG SRC="http://static2.wikia.nocookie.net/__cb20120127043312/halo/es/images/9/9e/Halo2_04.jpg"> <!--Etiqueta Absoluta-->
+
+
+
+
+<!--fORMULARIO-->
+<FORM>
+	
+<INPUT TYPE "TEXT" name="numero" maxlength="2" value="Numero">
+
+</FORM>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
