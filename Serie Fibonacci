@@ -1,0 +1,144 @@
+Trabajos
+========
+
+Vida en JS - HTML
+
+
+ <!--Universidad de Cundinamarca 
+ Extensión Chía
+ Ingeniería de Sistemas 
+ Computación Grafica
+ V Semestre Nocturno
+ IPA2014                   
+
+ Presentado por: 
+ * Luis Alfredo Sánchez  - Código:561212149               
+ Docente: Jorge Rubiano-->
+
+
+
+<!doctype html>
+<html lang="es">
+<head>
+
+	<!--Tipo de Codificación-->
+	<meta charset="UTF-8">
+
+	<!--Titulo de la Pagina Web-->
+	<title>Serie Fibonacci</title>
+
+
+<!---SCRIP-->
+
+<!--Creacion de Scrip-->
+
+<script language="javascript">
+
+
+//////////////////////////Validar Números//////////////////////////////////
+			
+			function ValidaSoloNumeros() {
+ 			if ((event.keyCode < 48) || (event.keyCode > 57)) 
+ 			 event.returnValue = false;
+				}
+//Validación tomada de http://devcate.blogspot.com/2012/10/validar-solo-numeros-o-texto-con.html
+
+
+
+
+/////////////////////////SERIE FIBONACCI/////////////////////////////////////////////////////
+	
+/////////////DECLARACIÓN DE VARIABLES///////////////////////////////////////////////
+var a=0; 
+var b=1; 
+var c; 
+var i; 
+var x; 
+
+//______________________________________________________________________________________
+
+
+
+//////////Solicitar Posición de Serie Fibonacci/////////////////////////
+x = prompt("¿Cuantos números quieres conocer de la Serie Fibonacci?");
+
+//__________________________________________________________________________
+
+
+///////////////////Validación de Caracteres////////////////////////
+while (parseInt(x) != x) {
+x = prompt("!Digitación ERRONEA! Digite un numero entero");
+}
+
+//Mientras que sea igual a un entero seguira compilando, si nunca va hacer un número entero mostrara mensaje de advertencia, Digitación Erronea________________________________________________________________
+
+
+//////////////////////////Impresión Por Pantalla/////////////////////////////////////
+
+document.write("La serie Fibonacci es: ");
+document.write (a+" - "); 
+document.write(b+" - "); 
+
+// Tanto Como a y b nunca van a cambiar en la serie, entonces se imprimen de una vez.
+
+
+/////////////////////////////METODO/////////////////////////////////////////////////////////////
+
+	
+		for(i=3;i<=x;i++){ 
+		c=a+b;
+ 		a=b; 
+ 		b=c; 
+ 		document.write(c+" - ");
+		}
+
+//_____________________________________________________________
+
+
+</script>
+
+
+</head>
+
+
+
+<body>
+
+
+
+ <!--///////////////////////////////////////////////////////////////////////////////////////////--> 
+ 	
+ 	<!--DESCRIPCIÓN-->
+
+<!--Uso de la Etiqueta DIV-->
+<DIV Align="Center" > <font Color="Red"><h2><U>Descripción</u></h2></font>
+
+
+	<h2>Este programa muestra la Serie Fibonacci, si el usuario desea conocer cual es la sucesion de números hasta la posición x, la puede saber con este programa.</h2> <P>
+
+	<A HREF="file:///D:/Desktop/FinalFibo.html"><h3>Again</h3> </A> <P>
+
+
+	<IMG SRC="http://4.bp.blogspot.com/-Iabr5ZVnDWg/UEpBp_IL4SI/AAAAAAAACyY/QCRiDZL4dMA/s1600/188129_68060389128_7270375_n.jpg">
+
+
+</DIV>	
+
+ <!--////////////////////////////////PRESENTACIÓN///////////////////////////////////-->
+<CODE><UL>
+ Universidad de Cundinamarca <P>
+ Extensión Chía<P>
+ Ingeniería de Sistemas <P>
+ Computación Grafica<P>
+ V Semestre Nocturno<P>
+ IPA2014               <P>     
+
+ Presentado por: <P>
+ * Luis Alfredo Sánchez  - Código:561212149<P>
+                
+ Docente: Jorge Rubiano
+</UL></CODE>
+
+    </body>
+</html>
+ <!--Fin del Programa-->
