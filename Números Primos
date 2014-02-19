@@ -1,0 +1,171 @@
+
+ <!--Universidad de Cundinamarca 
+ Extensión Chía
+ Ingeniería de Sistemas 
+ Computación Grafica
+ V Semestre Nocturno
+ IPA2014                   
+
+ Presentado por: 
+ * Luis Alfredo Sánchez  - Código:561212149               
+ Docente: Jorge Rubiano-->
+
+
+
+<!doctype html>
+<html lang="es">
+<head>
+
+	<!--Tipo de Codificación-->
+	<meta charset="UTF-8">
+
+	<!--Titulo de la Pagina Web-->
+	<title>Numeros Primos</title>
+
+
+<!---SCRIP-->
+
+<!--Creacion de Scrip-->
+
+<script language="javascript">
+
+
+//////////////////////////Validar Números//////////////////////////////////
+			
+			function ValidaSoloNumeros() {
+ 			if ((event.keyCode < 48) || (event.keyCode > 57)) 
+ 			 event.returnValue = false;
+				}
+//Validación tomada de http://devcate.blogspot.com/2012/10/validar-solo-numeros-o-texto-con.html
+
+
+
+
+/////////////////////////NÚMERO PRIMOS/////////////////////////////////////////////////////
+	
+/////////////DECLARACIÓN DE VARIABLES///////////////////////////////////////////////
+var contador=2; //Contador en 2 Ya que cualquier número es divisible por 1 y por el mismo
+var x; //Variable para guardar el número digitado por el usuario.
+
+
+//______________________________________________________________________________________
+
+///////////////////ASIGNACIÓN DE VARIABLES/////////////////////////
+
+
+x = prompt("¿Ingrese un número entero diferente de 1?");
+//_______________________________________________________________________________________
+
+
+//////////////////VALIDACIÓN DE CARACTERES/////////////////////////////////
+
+while (parseInt(x) == 1 ) {
+x = prompt("!Digitación ERRONEA! Digite un numero entero");
+}
+//Un  número primo tiene que ser mayor a 1________________________________________________________________
+
+while (parseInt(x) != x ) {
+x = prompt("!Digitación ERRONEA! Digite un numero entero");
+}
+//Validación letras y caracteres especiales____________________________________________________________________________
+
+
+/////////////////////////////////////METODO/////////////////////////////////////////////////
+   
+    
+    if (x%2==0) {
+		contador++;
+
+    };
+
+ if (x%3==0) {
+		contador++;
+
+    };
+
+ if (x%5==0) {
+		contador++;
+
+    };
+
+
+ if (x==2) {
+		contador--;
+
+    };
+
+ if (x==3) {
+		contador--;
+
+    };   
+
+if (x==5) {
+		contador--;
+
+    };
+
+
+document.write("El número: "+x); //Impresión por pantalla
+
+ 
+
+if (contador<=2) {
+
+	document.write("!SI! es primo."); //Si el contador es igual o menor a 2 decimos qu es un número primo.
+};
+
+if (contador>=3) {
+
+	document.write("!NO! es primo.") //Si el contador es mayor a 2 NO es un número primo.
+};
+  
+
+//Final del Scrip</script>
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+
+ <!--////////////////////////////CUERPO DE LA PAGINA////////////////////////////////////////////////////--> 
+ 	
+ 	<!--DESCRIPCIÓN-->
+
+<!--Uso de la Etiqueta DIV-->
+<DIV Align="Center" > <font Color="Red"><h2><U>Descripción</u></h2></font>
+
+
+	<h2>Programa que arroja como resultado si un número es primo o no.</h2> <P>
+
+	<A HREF="file:///D:/Desktop/Numeros%20Primos.html"><h3>Again</h3> </A> <P>
+
+
+	<IMG SRC="http://4.bp.blogspot.com/-Iabr5ZVnDWg/UEpBp_IL4SI/AAAAAAAACyY/QCRiDZL4dMA/s1600/188129_68060389128_7270375_n.jpg">
+
+
+</DIV>	
+
+ <!--////////////////////////////////PRESENTACIÓN///////////////////////////////////-->
+<CODE><UL>
+ Universidad de Cundinamarca <P>
+ Extensión Chía<P>
+ Ingeniería de Sistemas <P>
+ Computación Grafica<P>
+ V Semestre Nocturno<P>
+ IPA2014               <P>     
+
+ Presentado por: <P>
+ * Luis Alfredo Sánchez  - Código:561212149<P>
+                
+ Docente: Jorge Rubiano
+</UL></CODE>
+
+    </body>
+</html>
+ <!--Fin del Programa-->
