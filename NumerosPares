@@ -117,9 +117,10 @@ Vida en JS - HTML
 
 	<h2>Este es un programa el cual solicita un número entero al usuario, y nos dice si el número es par o impar.</h2> <P>
 
+	<!--Uso de la Ruta Relativa-->
 	<A HREF="file:///D:/Desktop/ola.html"><h3>Again</h3> </A> <P>
 
-
+	<!--Uso de la Ruta Absoluta-->
 	<IMG SRC="http://4.bp.blogspot.com/-Iabr5ZVnDWg/UEpBp_IL4SI/AAAAAAAACyY/QCRiDZL4dMA/s1600/188129_68060389128_7270375_n.jpg">
 
 
